@@ -39,7 +39,6 @@ Detailed instructions on how to install and set up the project:
 
 # Clone the repository
 git clone https://github.com/shiipl/AntiBinder.git
-cd AntiBinder
 
 # Create a virtual environment
 python -m venv env
