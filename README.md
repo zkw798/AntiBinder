@@ -24,14 +24,14 @@ List the libraries and tools required to run the project:
 ## Installation Guide
 Detailed instructions on how to install and set up the project:
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/shiipl/AntiBinder.git
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 
-## Usage Instructions
-### Training
+### Usage Instructions
+#### Training
 Prepare labeled sequence data for antigens and antibody heavy chains. Name the columns according to the names specified in the `antigen_antibody_emb.py`. If the heavy chain sequences of the antibodies have not been split, first use `heavy_chain_split.py` to split the sequences. Then, use the command: `python main_trainer.py` to start the model training.
 
 ```python
@@ -39,7 +39,7 @@ Prepare labeled sequence data for antigens and antibody heavy chains. Name the c
 # Start training
 !python main_trainer.py
 ```
-### Testing
+#### Testing
 Prepare labeled sequence data for antigens and antibodies. Name the columns according to the names specified in the `antigen_antibody_emb.py`. Then, use the command: `python main_test.py` to start the test.
 ```python
 # Example code for starting tesing
