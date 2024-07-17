@@ -10,38 +10,22 @@ List the libraries and tools required to run the project:
 - biopython           1.83
 - biotite             0.40.0
 - bs4                 0.0.2
-- dgl                 2.1.0
-- einops              0.7.0
 - fair-esm            2.0.0
 - idna                3.4
 - igfold              0.4.0
-- lightning-utilities 0.11.2
 - lmdb                1.4.1
 - logomaker           0.8
 - ml-collections      0.1.1
-- nest_asyncio        1.6.0
-- openpyxl            3.1.2
-- pandas              2.2.1
-- pytorch-lightning   1.8.6
-- requests            2.31.0
 - scikit-learn        1.4.2
-- scipy               1.13.0
 - seaborn             0.13.2
 - six                 1.16.0
-- torch               2.2.2
-- tornado             6.3.3
 - tqdm                4.66.2
-- urllib3             2.1.0
-- wheel               0.41.2
 
 ## Installation Guide
 Detailed instructions on how to install and set up the project:
 
 # Clone the repository
 git clone https://github.com/shiipl/AntiBinder.git
-
-# Create a virtual environment
-python -m venv env
 
 # Install dependencies
 pip install -r requirements.txt
